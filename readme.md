@@ -1,6 +1,6 @@
 # Customer Service Agent with AutoGen and Streamlit
 
-This AI-powered customer service system consists of a Streamlit-based frontend and a FastAPI backend, designed to handle customer inquiries efficiently. The frontend provides an interactive chat interface, while the backend coordinates two AI agents: a general agent for common queries and a senior agent for escalated or complex issues. Both agents utilize Azure OpenAI models and search respective CSV-based knowledge bases using fuzzy matching to provide relevant answers. The system ensures smooth escalation between agents, logs interactions, and handles errors gracefully, offering a robust solution for retail customer service scenarios.
+This Customer Service Agent with [AutoGen](https://github.com/microsoft/autogen) consists of a [Streamlit](https://streamlit.io/)-based frontend and a [FastAPI](https://fastapi.tiangolo.com/) backend, designed to handle customer inquiries efficiently. The frontend provides an interactive chat interface, while the backend coordinates two AI agents: a general agent for common queries and a senior agent for escalated or complex issues. Both agents utilize [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/overview) models and search respective CSV-based knowledge bases using fuzzy matching to provide relevant answers. The system ensures smooth escalation between agents, logs interactions, and handles errors gracefully, offering a robust solution for retail customer service scenarios.
 
 ## Features
 
